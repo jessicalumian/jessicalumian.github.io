@@ -1,0 +1,84 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Jessica Elizabeth Mizzi Lumian
+    - name: Areas of Expertise
+      value: Microbiology, Bioinformatics (Genomics, Metagenomics)
+    - name: Location
+      value: Sacramento, California
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Microbiology with Designated Emphasis in Biotechnology
+      institution: University of California Davis
+      year: 2022
+    - title: BS in Biochemistry and Molecular Biology
+      institution: Michigan State University
+      year: 2015
+
+- title: Professional Highlights
+  type: time_table
+  contents:
+    - title: Postdoctoral Scholar & Product Owner
+      institution: NIH Common Fund Data Ecosystem
+      year: 2022
+      description:
+        - Coordinated product strategy for NIH CFDE Portal
+        - Ran Help Desk to troubleshoot internal issues and customer-facing questions
+        - Organized and led hackathons and training events about bioinformatics and computational skills (NGS sequence analysis, cloud computing with AWS, UNIX skills)
+    - title: Postdoctoral Researcher
+      institution: University of California Davis
+      year: 2022
+      description:
+        - Pursued cutting-edge bioinformatics research on detection of genomes using large-scale k-mer searching
+        - Built curriculum and instructed research-focused bioinformatics class using microbial NGS techniques and R
+
+    - title: Policy Fellow
+      institution: Governor's Office of Planning and Research, California Initiative to Advance Precisions Medicine
+      year: 2021-2022
+      description:
+        - Developed Precision Medicine Asset Inventory application based on needs from stakeholders
+        - Piloted impact assessment team project including creating report structure and delegating tasks
+
+    - title: PhD Candidate
+      institution: University of California Davis
+      year: 2016 - 2022
+      description:
+        - Generated five novel Cyanobacteria genomes from metagenomes and assessed phylogeny, metabolic potential, and ecology.
+
+    - title: Microbial Diversity Course Coordinator
+      institution: Marine Biological Laboratory, Woods Hole, MA
+      year: 2016
+      description:
+        - Coordinated 6-week microbiology course including schedule management and ordering supplies
+
+    - title: Bioinformatics Training Coordinator
+      institution: Michigan State University and University of Californa Davis
+      year: 2015 - 2016
+      description:
+        - Coordinated 30+ bioinformatics workshops, developed instructional materials, participated in teaching
+        - Topics included NGS workflows, cloud computing, scripting languages, and data visualization
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2018 - 2020
+      items: 
+        - Recipient of National Science Foundation Graduate Research Fellowship Program award worth $408,000 
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Technical Skills
+      items: 
+        - NGS bioinformatics workflows (genomics, metagenomics), Cloud Computing with slurm and Amazon Web Services, Jupyter Notebooks
+        - Workflow Management and Automation with Snakemake and  Git/GitHub
+        - Bash scripting, UNIX, Python, R
+        - Communication with  Markdown, ReStructured Text, Jira
+    - title: Organizational Skills
+      items:
+        - Project management in cross-functional teams
+        - Cusotmer-facing communication
+        - Logistical planning of online and in-person scientific events
