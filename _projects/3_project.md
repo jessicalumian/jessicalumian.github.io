@@ -2,82 +2,33 @@
 layout: page
 title: Precision Medicine Asset Inventory
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: assets/img/asset_inventory_screenshot.png
 importance: 3
 category: development
 ---
 
-this will be on the precision medicine asset inventory, created with arcGIS!
+During the last year of my PhD, I was a Policy Fellow at the Governor's Office of Planning a Research with the 
+[California Initiative to Advance Precision Medicine](https://opr.ca.gov/ciapm/).
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+During this time, I created an interactive Asset Inventory of precision medicine entities throughout California.
+I was given an excel spreadsheet with information about the assets and I used SQL and ArcGIS to create an interactive
+map.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Next, I used ESRI ArcGIS ExperienceBuilder to build an application viewable on computers, tablets, and phones. This 
+involved implementing filtering options as well as a free text search. In order to determine what features were important for the application, I sought feedback from precision medicine stakeholders.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Finally, I created surveys to allow additional groups to add or edit entries to the Asset Inventory. Although it is 
+possible to allow ArcGIS maps to be edited by anyone, I chose to require manual review before allowing changes to 
+the map.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/asset_inventory_screenshot.png" title="Asset Inventory screenshot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Screenshot of the filtering, searching, and map portions of the Asset Inventory application.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+You can check out the full application at: [https://experience.arcgis.com/experience/a5a4dec45eaf4b8f9c418a5cfa6e7a67/](https://experience.arcgis.com/experience/a5a4dec45eaf4b8f9c418a5cfa6e7a67/)
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
