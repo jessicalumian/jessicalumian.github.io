@@ -1,80 +1,96 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Sulfide-tolerant Cyanobacteria
+description: The metabolic potential of Phormidium pseudopriestleyi, a sulfide-tolerant Antarctic cyanobacteria
+img: assets/img/phormidium.jpg
 importance: 1
-category: work
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The McMurdo Dry Valleys contain perenially ice-covered lakes that are home to microbial mats consisting of cyanobacteria 
+and other microscopic organisms. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+These cyanobacteria face many stresses! After surviving a freeze drying trip through the  atmosphere to get to Antarctica, 
+cold temperatures and limited light availability throughout the year can hamper growth.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fryxell_map.jpg" title="Map of Lake Fryxell" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Maps from Sumner et al, 2015. <a href="https://doi.org/10.1130/G36966.1">doi.org/10.1130/G36966.1</a>
 </div>
+
+Lake Fryxell is home to *Phormidium pseudopriestleyi*, a cyanobacteria that grows in cold, low light, and sulfidic conditions.
+This is impressive because:
+
+- Cold temperatures slow biochemical processes. 
+- Light is required for photosynthesis. 
+- Sulfide normally inhibits photosynthesis. 
+
+*Phormidium pseudopriestleyi* is the dominant cyanobacteria that grows in sulfidic parts of the water. Understanding how this organism
+tolerates sulfide would broaden the understanding of sulfide stress in cyanobacteria.
+
+To better study this mechanism, *Phormidium pseudopriestleyi* was cultured from a frozen chunk of Lake Fryxell microbial mat and sequenced. 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/mat_chunk.jpg" title="Chunk of microbial mat" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    A frozen chunk of microbial mat from Lake Fryxell. The dark green bits are Phormidium pseudopriestleyi!
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+It took some time to figure out how to best growth this organism in the lab. Eventually, Green filaments were pulled from the mat chunk and grown in BG11 agar plates.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/phormidium.jpg" title="Phormidium in plate" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The filamentous cells can spread out within the well or get tangled.
 </div>
 
+Under the microscope, the cells look like long filaments.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/phormidium_microscope.jpg" title="Phormidium in underscope" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+    This image is taken at 30X magnification.
+</div>
+
+After sequencing the organism, I generated a genome and analyzed its metabolic potential. 
+
+I had metagenomic sequencing from a microbial mat sample and deeper sequencing from a lab culture. I created a Snakemake pipeline to generate a genome
+from the coassembly. The code for this process can be found at [https://github.com/jessicalumian/fryxell-phormidium](https://github.com/jessicalumian/fryxell-phormidium).
+
+Based on gene content, there are three mechanisms
+that could help *Phormidium pseudopriestleyi* tolerate sulfide. I created the figure below to illustrate how sulfide inhibits oxygenic photosynthesis
+and the ways sulfide may be oxidized.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/phormidium_sulfide_figure.png" title="Diagram of sulfide tolerance mechanisms" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Sulfide tolerance mechanisms figure from Lumian et al., 2021. <a href="https://doi.org/10.3390/genes12030426">doi.org/10.3390/genes120304261</a>.
+</div>
+
+I determined that the sulfide could be depleted by anoyxgenic photosynthesis, abiotic sulfide oxdiation, or a combination of the two. Low light in
+the environment may also play a role, and of course we can't discount the potential influence of nearby organisms!
+
+You can read about the whole story in the paper here at [Lumian, et al. 2021](https://doi.org/10.3390/genes12030426).
+
+The next step to figuring out this mechanism would be to replicate the sulfidic conditions of Lake Fryxell in the lab and measure the response of 
+*Phormidium pseudopriestleyi. I planned these experiments, but they were unfortunately cancelled due to covid-related lab shutdowns.
+
+Instead, I generated more Antarctic cyanobacteria genomes and conducted a biogeography study with them. This turned out to be pretty exciting, and you can read more 
+about that at its project page.
+

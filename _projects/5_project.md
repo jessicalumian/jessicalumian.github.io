@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 5
+title: Course Coordinator Experience
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: coordinating
 ---
+
+this will be about my experience organizing courses and stuff!
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
