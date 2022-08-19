@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Precision Medicine Asset Inventory
-description: a project that redirects to another website
+description: An interactive ArcGIS application of precision medicine assets in California
 img: assets/img/asset_inventory_screenshot.png
-importance: 3
+importance: 1
 category: development
 ---
 
