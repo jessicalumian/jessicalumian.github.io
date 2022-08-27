@@ -1,13 +1,13 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Bioinformatics Training Coordinator
+description: Coordinating bioinformatics workshops in person and virtually
+img: assets/img/workshop.jpg
+importance: 3
 category: coordinating
 ---
 
-Coordinating Microbial Diveristy course at Woods Hole
+this will be about my experience organizing courses and stuff!
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

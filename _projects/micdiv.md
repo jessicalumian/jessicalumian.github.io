@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Course Coordinator Experience
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: Microbial Diversity Course Coordinating
+description: Coordinating the Microbial Diversity course at Marine Biological Lab in  Woods Hole, MA
+img: assets/img/MBL-logo.jpg
+importance: 4
 category: coordinating
 ---
 
-this will be about my experience organizing courses and stuff!
+Coordinating Microbial Diveristy course at Woods Hole
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
