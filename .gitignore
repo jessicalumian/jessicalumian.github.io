@@ -8,3 +8,9 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
+_news
+_plugins
+_sass
+_bibliography
+_data
+_bin
