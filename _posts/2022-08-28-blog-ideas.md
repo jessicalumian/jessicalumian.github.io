@@ -3,7 +3,7 @@ layout: post
 title:  Blog Ideas
 date:   2022-08-28 16:40:16
 description: Some ideas for future blog posts
-tags: formatting
+tags: ideas
 categories: 
 ---
 
