@@ -1,82 +1,65 @@
 ---
 layout: page
-title: Bioinformatics Training Coordinator
+title: Bioinformatics Training + Tule Elk
 description: Coordinating bioinformatics workshops in person and virtually
-img: assets/img/workshop.jpg
+img: assets/img/tule_elk_only.png
 importance: 3
 category: coordinating
 ---
 
-this will be about my experience organizing courses and stuff!
+Before I started graduated school, I worked as a Bioinformatics Training Coordinator the the Lab for 
+[Data Intensive Biology](http://ivory.idyll.org/lab/). During this year I coordinated:
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+- 30+ half day  workshops
+- 10+ two day workshops
+- 10+ weeks of intensive workshops
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Most workshops were beginner to intermediate levels with some specialized advanced sessions as well.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Topics included:
+
+- **Bioinformatics Workflow Skills**: genomics, transcriptomics, metagenomics analyses
+- **Computational Skills**: Python, R, data visualization
+- **Cloud Compute Tools**: Amazon Web Services, Jupyter Notebooks
+
+I frequently acted as a helper during these workshops to assist with questions or software installation
+problems.
+
+I also organized a series of online workshops. Although these are now common, they weren't as popular back
+in 2016!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/streamed_workshops.png" title="Screenshot of Streamed Workshops" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    A screencap of streamed workshops.
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/workshop.jpg" title="Workshop desk" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Streaming workshops required multiple computers and dongles.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+During this year, I also participated in instructing and helping Software Carpenty bioinformatics workshops.
 
+I wanted to apply my newfound bioinformatics skills, so I worked with a group to generate the first Tule Elk genome, which 
+was used to track Tule Elk populations based on single nucleotide variations.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tule_elk.png" title="Tule Elk Tweet" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    A tweet from the F1000 Research announcing the Tule Elk genome accouncement. I am forever in awe of the beautiful graphic design work.
 </div>
 
+The Tule Elk draft genome announcement can be viewed at [https://doi.org/10.12688/f1000research.12636.2](https://doi.org/10.12688/f1000research.12636.2). 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The github repository is at [https://github.com/jessicalumian/tule-elk](https://github.com/jessicalumian/tule-elk)

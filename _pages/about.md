@@ -23,5 +23,7 @@ My PhD focused on Cyanobacteria living in ice-covered lakes in Antarctica. I gen
 
 I'm currently a postdoctoral scholar with the NIH Common Fund Data Ecosystem. I run trainings and hackathons and provide product support for the [CFDE metadata catalog portal](https://app.nih-cfde.org/).
 
-To learn more about my research and training efforts, check out the projects page!
+My research interests are on microbial communities and the detection of organisms within metagenomic data sets.
+
+To learn more about my research and training efforts, check out the other pages on this website!
 

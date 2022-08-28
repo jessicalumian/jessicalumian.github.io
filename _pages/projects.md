@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of computational projects.
+description: An overview of my projects.
 nav: true
 nav_order: 2
 display_categories: [research, development, coordinating]
