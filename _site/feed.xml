@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://jessicalumian.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessicalumian.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-08-28T12:28:36-07:00</updated><id>https://jessicalumian.github.io/feed.xml</id><title type="html">blank</title><subtitle>A Postdoctoral Scholar interested in bioinformatics, microbiology, and extreme environments.
+</subtitle><entry><title type="html">Blog Ideas</title><link href="https://jessicalumian.github.io/blog/2022/blog-ideas/" rel="alternate" type="text/html" title="Blog Ideas" /><published>2022-08-28T09:40:16-07:00</published><updated>2022-08-28T09:40:16-07:00</updated><id>https://jessicalumian.github.io/blog/2022/blog-ideas</id><content type="html" xml:base="https://jessicalumian.github.io/blog/2022/blog-ideas/"><![CDATA[<p>I have a few ideas for blog posts that I would like to write up.</p>
+
+<ul>
+  <li>Transferring large datasets between HPCs using globus endpoints</li>
+  <li>Isolating a slow-growing benthic cyanobacteria from a microbial mat sample (and avoiding contamination from faster growing eukaryotes)</li>
+  <li>Comparing overlapping k-mers between genomes and metagenomes. How can you tell if a small amount of shared DNA is from the same organism or from shared plasmids?</li>
+</ul>
+
+<p>The first two ideas are ready to write up, but the last is waiting on some analysis.</p>
+
+<p>More to come soon!</p>]]></content><author><name></name></author><category term="ideas" /><summary type="html"><![CDATA[Some ideas for future blog posts]]></summary></entry></feed>
