@@ -62,10 +62,10 @@ Read Archive. Results are returned based on containment.
 The workflow above shows a containment value of 20% for a metagenome of a lagoon in France. This means that 20% of the k-mers in my Antarctic cyanobacteria
 genome were found in a lagoon in France!
 
-More details about this process can be found at the following blogposts: [https://blog.luizirber.org/2020/07/24/mag-results/](https://blog.luizirber.org/2020/07/24/mag-results/) 
+More details about this process can be found at the following blog posts: [https://blog.luizirber.org/2020/07/24/mag-results/](https://blog.luizirber.org/2020/07/24/mag-results/) 
 and [http://ivory.idyll.org/blog/2021-MAGsearch.html](http://ivory.idyll.org/blog/2021-MAGsearch.html).
 
-My results showed me data from around the globe that shared genome content with Antarctic cyanobactera, and there were some pretty exciting results!
+My results showed me data from around the globe that shared genome content with Antarctic cyanobacteria, and there were some pretty exciting results!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -79,7 +79,7 @@ My results showed me data from around the globe that shared genome content with 
 The *Microcoleus* was in a wide variety of environmental conditions. *Phormidium pseudopriestleyi* was found in environments with stressful conditions.
 The *Pseudanabaena*, *Leptolyngbya*, and *Neosynechococcus* were found only in cold environments at containment values above the threshold.
 
-It has been super exciting to discover different types cold-tolerant cyanobacteria! The *Microcoleus* can grow in a variety of conditions while 
+It has been exciting to discover different types of cold-tolerant cyanobacteria! The *Microcoleus* can grow in a variety of conditions while 
 *Phormidium pseudopriestleyi* seems to thrive in locations that are too stressful for many other organisms.
 
 The details of this work has been written up in my dissertation, and will be in a paper or preprint soon.
