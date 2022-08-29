@@ -7,7 +7,7 @@ importance: 1
 category: development
 ---
 
-During the last year of my PhD, I was a Policy Fellow at the Governor's Office of Planning a Research with the 
+During the last year of my PhD, I was a Policy Fellow at the Governor's Office of Planning and Research with the 
 [California Initiative to Advance Precision Medicine](https://opr.ca.gov/ciapm/).
 
 During this time, I created an interactive Asset Inventory of precision medicine entities throughout California.
