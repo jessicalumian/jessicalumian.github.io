@@ -7,7 +7,7 @@ importance: 1
 category: research
 ---
 
-The McMurdo Dry Valleys contain perenially ice-covered lakes that are home to microbial mats consisting of cyanobacteria 
+The McMurdo Dry Valleys contain perennially ice-covered lakes that are home to microbial mats consisting of cyanobacteria 
 and other microscopic organisms. 
 
 These cyanobacteria face many stresses! After surviving a freeze drying trip through the  atmosphere to get to Antarctica, 
@@ -43,7 +43,7 @@ To better study this mechanism, *Phormidium pseudopriestleyi* was cultured from 
     A frozen chunk of microbial mat from Lake Fryxell. The dark green bits are Phormidium pseudopriestleyi!
 </div>
 
-It took some time to figure out how to best growth this organism in the lab. Eventually, Green filaments were pulled from the mat chunk and grown in BG11 agar plates.
+It took some time to figure out how to best grow this organism in the lab. Eventually, Green filaments were pulled from the mat chunk and grown in BG11 agar plates.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -83,13 +83,13 @@ and the ways sulfide may be oxidized.
     Sulfide tolerance mechanisms figure from Lumian et al., 2021. <a href="https://doi.org/10.3390/genes12030426">doi.org/10.3390/genes120304261</a>.
 </div>
 
-I determined that the sulfide could be depleted by anoyxgenic photosynthesis, abiotic sulfide oxdiation, or a combination of the two. Low light in
+I determined that the sulfide could be depleted by anoxygenic photosynthesis, abiotic sulfide oxidation, or a combination of the two. Low light in
 the environment may also play a role, and of course we can't discount the potential influence of nearby organisms!
 
 You can read about the whole story in the paper here at [Lumian, et al. 2021](https://doi.org/10.3390/genes12030426).
 
 The next step to figuring out this mechanism would be to replicate the sulfidic conditions of Lake Fryxell in the lab and measure the response of 
-*Phormidium pseudopriestleyi. I planned these experiments, but they were unfortunately cancelled due to covid-related lab shutdowns.
+*Phormidium pseudopriestleyi*. I planned these experiments, but they were unfortunately canceled due to covid-related lab shutdowns.
 
 Instead, I generated more Antarctic cyanobacteria genomes and conducted a biogeography study with them. This turned out to be pretty exciting, and you can read more 
 about that at its project page.
