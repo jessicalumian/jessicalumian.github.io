@@ -7,7 +7,7 @@ importance: 3
 category: coordinating
 ---
 
-Before I started graduated school, I worked as a Bioinformatics Training Coordinator the the Lab for 
+Before I started graduate school, I worked as a Bioinformatics Training Coordinator at the Lab for 
 [Data Intensive Biology](http://ivory.idyll.org/lab/). During this year I coordinated:
 
 - 30+ half day  workshops
@@ -46,7 +46,7 @@ in 2016!
     Streaming workshops required multiple computers and dongles.
 </div>
 
-During this year, I also participated in instructing and helping Software Carpenty bioinformatics workshops.
+During this year, I also participated in instructing and helping Software Carpentry bioinformatics workshops.
 
 I wanted to apply my newfound bioinformatics skills, so I worked with a group to generate the first Tule Elk genome, which 
 was used to track Tule Elk populations based on single nucleotide variations.
@@ -57,7 +57,7 @@ was used to track Tule Elk populations based on single nucleotide variations.
     </div>
 </div>
 <div class="caption">
-    A tweet from the F1000 Research announcing the Tule Elk genome accouncement. I am forever in awe of the beautiful graphic design work.
+    A tweet from the F1000 Research announcing the Tule Elk genome announcement. I am forever in awe of the beautiful graphic design work.
 </div>
 
 The Tule Elk draft genome announcement can be viewed at [https://doi.org/10.12688/f1000research.12636.2](https://doi.org/10.12688/f1000research.12636.2). 
