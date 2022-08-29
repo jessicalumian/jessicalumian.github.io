@@ -16,7 +16,7 @@ in Woods Hole, Massachusetts. My responsibilities for this time included:
 
 A fantastic benefit of my position was the ability to participate in the course. I learned a lot from lecture
 series and used a variety of lab equipment both at the bench and in the field. Most importantly, this course 
-sparked my curiousity in microscopic organisms and the diversity of life.
+sparked my curiosity in microscopic organisms and the diversity of life.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,10 +24,10 @@ sparked my curiousity in microscopic organisms and the diversity of life.
     </div>
 </div>
 <div class="caption">
-    I learned to streak and isolate microbes on a plates.
+    I learned to streak and isolate microbes on plates.
 </div>
 
-I learned basic microbiology lab skills: preparing plates, growing organisms, microscopy. I also gained a healthy appreciation 
+I learned basic microbiology lab skills: preparing plates, growing organisms, and microscopy. I also gained a healthy appreciation 
 for the level of "try a bunch of things and see what sticks" when culturing and isolating organisms. Different microbes will
 grow in different conditions!
 
