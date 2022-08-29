@@ -7,11 +7,11 @@ importance: 4
 category: development
 ---
 
-I have two main responsibilities as a Postdoctoral Scholar with the National Institues of Health Common Fund Data Ecosystem: working on 
+I have two main responsibilities as a Postdoctoral Scholar with the National Institutes of Health Common Fund Data Ecosystem: working on 
 the portal website and organizing trainings.
 
 The CFDE portal is a metadata catalog of data from 11 Common Fund groups. Instead of going to 11 separate online portals
-to search for data, a biomedical research can search for data across groups in one place! For example, all of the kidney
+to search for data, a biomedical researcher can search for data across groups in one place! For example, all of the kidney
 sequencing data can be identified in a single search.  
 
 <div class="row">
@@ -23,7 +23,7 @@ sequencing data can be identified in a single search.
     A screenshot of the CFDE portal shows data overviews at a glance and buttons to start a search.
 </div>
 
-My role for the CFDE portal is to provide input on development, test new features, and faciliate the data submission
+My role for the CFDE portal is to provide input on development, test new features, and facilitate the data submission
 process. This work involves communicating across many different disciplines and using creative problem solving skills.
 
 In addition to portal contributions, I organized two online hackathons with over 80 participants each and assisted
