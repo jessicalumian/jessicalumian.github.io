@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I'm Jessica! I'm interested in bioinformatics, microbiology, and data management.
 
-My PhD focused on Cyanobacteria living in ice-covered lakes in Antarctica. I generated new genomes from microbial mats and studied how they can survive in harsh conditions. I also analyzed the biogeography of these genomes by finding them existing public metagenomes from around the globe!
+My PhD focused on Cyanobacteria living in ice-covered lakes in Antarctica. I generated new genomes from microbial mats and studied how they can survive in harsh conditions. I also analyzed the biogeography of these genomes by finding them in existing public metagenomes from around the globe.
 
 I'm currently a postdoctoral scholar with the NIH Common Fund Data Ecosystem. I run trainings and hackathons and provide product support for the [CFDE metadata catalog portal](https://app.nih-cfde.org/).
 
